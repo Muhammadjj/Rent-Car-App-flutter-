@@ -30,7 +30,7 @@ class HomePageAppBar extends StatelessWidget implements PreferredSizeWidget {
                 ),
               ),
               Text(
-                'Tushar',
+                'Jawad Jani',
                 style: GoogleFonts.inter(
                   color: Colors.white,
                   fontSize: 18,
