@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'Export/export.dart';
 
 import 'package:flutter/material.dart';
@@ -58,7 +60,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
       body: _pages![_selectedPageIndex],
       bottomNavigationBar: BottomAppBar(
         // color: Colors.white,
-        padding: EdgeInsets.all(5),
+        padding: const EdgeInsets.all(5),
         shape: const CircularNotchedRectangle(),
         color: Theme.of(context).primaryColor,
         notchMargin: 0.01,
